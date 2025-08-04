@@ -1,0 +1,23 @@
+---
+description: Frontend rules for Img Generator based on PRD
+globs: frontend/**
+alwaysApply: false
+---
+
+### Frontend-специфічні вимоги з PRD:
+- **TR-001:** Використовувати TypeScript для всіх компонентів
+- **TR-002:** Суворе типізування для API відповідей
+- **TR-003:** React Hook Form для валідації форм
+- **TR-004:** Приватні роути з JWT токенами
+- **TR-005:** Material-UI для дизайну
+- **TR-006:** Responsive дизайн
+
+### Структури даних:
+@docs/PRD.md
+
+### Роути:
+- /login - авторизація
+- /register - реєстрація
+- / - головна сторінка (приватний роут)
+alwaysApply: false
+---
